@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+  <img height="200" src="https://cdn.pixabay.com/animation/2022/12/05/15/23/15-23-06-837_512.gif"  />
 </div>
 
 ###
@@ -51,7 +51,5 @@
 ###
 
 <br clear="both">
-
-<img src="https://raw.githubusercontent.com/Nattha-KT/Nattha-KT/output/snake.svg" alt="Snake animation" />
 
 ###
