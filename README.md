@@ -65,7 +65,12 @@
 - CSS3
 - React.js
 - Next.js
-- Tailwind CSS  
+- Tailwind CSS
+
+#### Frontend Testing:
+- Vitest
+- Testing Library
+  
 #### Backend and Database:
 
 - Prisma 
