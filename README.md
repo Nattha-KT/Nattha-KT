@@ -50,6 +50,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
   <img width="14" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" height="30" alt="tailwindcss logo"  />
+    <img width="14" />
+  <img src="https://user-images.githubusercontent.com/18430599/38112659-491f9112-3368-11e8-8b65-1725f19a61fa.png" height="40" alt="storybook logo"  />
 </div>
 
 
