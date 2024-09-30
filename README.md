@@ -65,8 +65,8 @@
 #### Backend and Database:
 
 - Prisma
-- NodeJS
-- ExpressJS
+- NodeJS (beginer😿)
+- ExpressJS (basic)
 - Firebase 
 - MySQL  
 - PostgreSQL  
