@@ -12,7 +12,7 @@
 
 ###
 
-<p align="left">✨ What I'm working on: <br>- Building and refining responsive web applications using modern frontend frameworks.<br><br>🌱 What I'm learning:<br>     - Deepening my understanding of full-stack development, focusing on the integration of frontend and backend technologies.<br>- Exploring website security best practices, particularly OWASP guidelines, to ensure secure and reliable applications.<br><br>🎯 Goals: <br>- To grow into a Fullstack Developer role, lead impactful projects, and implement secure, scalable solutions within a forward-thinking organization.<br><br>🧠 Familiarity: <br>- Agile Scrum <br><br>📫 How to reach me: <br> - Connect with me via email at <a href="mailto:someone@example.com">natthakan.npt@gmail.com</a></p>
+<p align="left">✨ What I'm working on: <br>- Building and refining responsive web applications using modern frontend frameworks.<br><br>🌱 What I'm learning:<br> - Exploring website security best practices, particularly OWASP guidelines, to ensure secure and reliable applications.<br><br>🎯 Goals: <br>- To grow into a Principal Developer role, lead impactful projects, and implement secure, scalable solutions within a forward-thinking organization.<br><br>🧠 Familiarity: <br>- Agile Scrum <br><br>📫 How to reach me: <br> - Connect with me via email at <a href="mailto:someone@example.com">natthakan.npt@gmail.com</a></p>
 
 
 ###
