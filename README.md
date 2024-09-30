@@ -51,8 +51,8 @@
 - Java 🥲  
 #### Frontend:
 - HTML5 & CSS3
-- React.js
-- Next.js
+- ReactJS
+- NextJS
 - Tailwind CSS
 - Storybook
 - Radix | antd | MUI | Daisy | Material tailwind
@@ -65,7 +65,8 @@
 #### Backend and Database:
 
 - Prisma
-- Nodejs
+- NodeJS
+- ExpressJS
 - Firebase 
 - MySQL  
 - PostgreSQL  
