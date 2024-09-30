@@ -49,21 +49,23 @@
 - Golang 👶🏻  
 - C 
 - Java 🥲  
-#### Frontend Technologies:
-- HTML5 
-- CSS3
+#### Frontend:
+- HTML5 & CSS3
 - React.js
 - Next.js
 - Tailwind CSS
 - Storybook
+- Radix | antd | MUI | Daisy | Material tailwind
 
 #### Frontend Testing:
-- Vitest
 - Testing Library
+- Vitest
+- Jest
   
 #### Backend and Database:
 
-- Prisma 
+- Prisma
+- Nodejs
 - Firebase 
 - MySQL  
 - PostgreSQL  
@@ -76,8 +78,8 @@
 
 <p align="left">
   
-- `Husky`: Leveraging Husky to manage Git hooks (T_T).
-- `Lint-staged`: Improving code quality and performance by running linters on staged files before commits (I'm beginer 😭).
+- `Husky`: Leveraging Husky to manage Git hooks.
+- `Lint-staged`: Improving code quality and performance by running linters on staged files before commits (beginer 😭).
 - `ESLint`: Enforcing consistent code style and identifying problematic patterns in JavaScript/TypeScript code 🥲.
 - `Prettier`: Automatically formatting code for better readability and consistency 🚀.
 </p>
