@@ -55,7 +55,7 @@
 - NextJS
 - Tailwind CSS
 - Storybook
-- Radix | antd | MUI | Daisy | Material tailwind
+- Radix | antd | MUI | Daisy | Material tailwind | Shadcn
 
 #### Frontend Testing:
 - Testing Library
