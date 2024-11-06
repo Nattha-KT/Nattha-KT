@@ -102,7 +102,11 @@
 - Firebase 
 - MySQL  
 - PostgreSQL  
-- MongoDB 
+- MongoDB
+
+#### Monorepo with:
+- Turborepo (basic)
+- Lerna (beginner)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
