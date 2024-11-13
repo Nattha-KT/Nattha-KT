@@ -85,7 +85,7 @@
 - HTML5 & CSS3
 - ReactJS
 - NextJS
-- Tailwind CSS
+- Tailwind CSS , SCSS
 - Storybook
 - Radix | antd | MUI | Daisy | Material tailwind | Shadcn
 
