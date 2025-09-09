@@ -2,7 +2,7 @@ name: generate breakout svg
 
 on:
   schedule:
-    - cron: "0 0 * * *" # daily at 00:00 UTC
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -19,34 +19,40 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate SVGs
+      - name: Generate custom SVG (light theme)
         uses: cyprieng/github-breakout@v1.2.1
         with:
           github_username: ${{ env.GH_USERNAME }}
           enable_ghost_bricks: true
-          paddle_color: "#5db3ecff"
-          ball_color: "#e96384ff"
+          paddle_color: "#5DB3EC"   
+          ball_color:   "#E96384"   
           bricks_colors: "#f0f0f8,#efede6,#d5cfc3,#a1998f,#676663"
 
-      - name: Normalize outputs (handle custom.svg or light/dark)
+      - name: Store light image
+        run: |
+          mkdir -p /tmp/breakout
+          cp output/custom.svg /tmp/breakout/breakout-light.svg
+  
+      - name: Generate custom SVG (dark theme)
+        uses: cyprieng/github-breakout@v1.2.1
+        with:
+          github_username: ${{ env.GH_USERNAME }}
+          enable_ghost_bricks: true
+          paddle_color: "#5DB3EC"
+          ball_color:   "#E96384"
+        
+          bricks_colors: "#0f141a,#1a2230,#233046,#36526f,#9ccdf3"
+
+      - name: Publish both images
         run: |
           mkdir -p images
-          if [ -f output/light.svg ] && [ -f output/dark.svg ]; then
-            mv output/light.svg images/breakout-light.svg
-            mv output/dark.svg  images/breakout-dark.svg
-          elif [ -f output/custom.svg ]; then
-            cp output/custom.svg images/breakout-light.svg
-            cp output/custom.svg images/breakout-dark.svg
-          else
-            echo "No expected SVGs found in ./output"
-            ls -la output || true
-            exit 1
-          fi
+          cp /tmp/breakout/breakout-light.svg images/breakout-light.svg
+          cp output/custom.svg               images/breakout-dark.svg
 
       - name: Commit and push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add images
-          git commit -m "Update breakout SVGs" || echo "No changes to commit"
+          git commit -m "Update breakout SVGs (light/dark)" || echo "No changes to commit"
           git push
