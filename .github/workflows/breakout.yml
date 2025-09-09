@@ -24,9 +24,9 @@ jobs:
         with:
           github_username: ${{ env.GH_USERNAME }}
           enable_ghost_bricks: true
-          paddle_color: "#1BC4BB"
-          ball_color: "#4AF141"
-          bricks_colors: "#f3e5f5,#ce93d8,#ab47bc,#6a1b9a,#4a148c"
+          paddle_color: "#5db3ecff"
+          ball_color: "#e96384ff"
+          bricks_colors: "#f0f0f8,#efede6,#d5cfc3,#a1998f,#676663"
 
       - name: Normalize outputs (handle custom.svg or light/dark)
         run: |
